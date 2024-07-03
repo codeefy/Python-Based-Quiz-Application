@@ -1,11 +1,10 @@
-# Example file for LinkedIn Learning Course "Python: Build a Quiz App" by Joe Marini
 # The Quiz and Question classes define a particular quiz
 
 
-class Quiz:
-    def __init__(self):
+class Quiz:  # Base class for all quizzes in the system 
+    def __init__(self): # Constructor for the Quiz class 
         #TODO: define the quiz properties
-        pass
+        pass  # Placeholder to avoid an error when the class is empty 
 
     def print_header(self):
         print("\n\n*******************************************")
