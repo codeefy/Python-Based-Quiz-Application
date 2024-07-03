@@ -80,7 +80,7 @@ class QuestioncMC(Question):
             if response[0] == self.correct_answer: # Check to see if the response is correct 
                 self.is_correct = True # Mark the question as correct
 
-            break
+            break # Exit the loop    
 
 
 class Answer:
