@@ -92,7 +92,7 @@ class Answer: # Answer class
 if __name__ == "__main__":
     qz = Quiz()
     qz.name = "Sample Quiz"
-#     qz.description = "This is a sample quiz!"
+    qz.description = "This is a sample quiz!"
 
 #     q1 = QuestionTF()
 #     q1.text = "Broccoli is good for you"
