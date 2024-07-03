@@ -27,15 +27,15 @@ class Quiz:  # Base class for all quizzes in the system
         pass
 
 
-class Question:
-    def __init__(self):
-        self.points = 0
-        self.correct_answer = ""
-        self.text = ""
-        self.is_correct = False
+class Question: # Base class for all questions in the quiz  
+    def __init__(self): # Constructor for the Question class
+        self.points = 0 # Points for the question 
+        self.correct_answer = "" # Correct answer for the question 
+        self.text = "" # Text of the question
+        self.is_correct = False # Flag to indicate if the question was answered correctly
 
 
-class QuestionTF(Question):
+class QuestionTF(Question): # True/False question class 
     def __init__(self):
         super().__init__()
 
@@ -64,16 +64,16 @@ class QuestioncMC(Question):
         super().__init__()
         self.answers = []
 
-    def ask(self):
-        while (True):
-            print(self.text)
-            for a in self.answers:
-                print(f"{a.name}) {a.text}")
+    def ask(self): # Method to ask the question
+        while (True): # Loop to keep asking the question until a valid response is given
+            print(self.text) # Print the question to the console
+            for a in self.answers: # Loop through the answers and print them to the console
+                print(f"{a.name}) {a.text}") # Print the answer to the console
 
-            response = input("? ")
+            response = input("? ") # Get the response from the user 
 
-            if (len(response) == 0):
-                print("Sorry, that's not a valid response. Please try again")
+            if (len(response) == 0): # Check to see if no response was entered
+                print("Sorry, that's not a valid response. Please try again") # Print an error message to the console
                 continue
 
             response = response.lower()
