@@ -7,11 +7,11 @@ class Quiz:  # Base class for all quizzes in the system
         pass  # Placeholder to avoid an error when the class is empty 
 
     def print_header(self): # Method to print the quiz header  
-        print("\n\n*******************************************") 
+        print("\n\n*******************************************")  # it  is a comment that is used to mark the location of a task in the code
         #TODO: print the quiz header
         print("*******************************************\n")
 
-    def print_results(self):
+    def print_results(self): # Method to print the quiz results
         print("*******************************************")
         
         print("*******************************************\n")
