@@ -94,8 +94,8 @@ if __name__ == "__main__":
     qz.name = "Sample Quiz"
     qz.description = "This is a sample quiz!"
 
-#     q1 = QuestionTF()
-#     q1.text = "Broccoli is good for you"
+    q1 = QuestionTF()
+    q1.text = "Broccoli is good for you"
 #     q1.points = 5
 #     q1.correct_answer = "t"
 #     qz.questions.append(q1)
