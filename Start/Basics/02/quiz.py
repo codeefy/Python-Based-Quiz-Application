@@ -83,10 +83,10 @@ class QuestioncMC(Question):
             break # Exit the loop    
 
 
-class Answer:
-    def __init__(self):
-        self.text = ""
-        self.name = ""
+class Answer: # Answer class   
+    def __init__(self): # Constructor for the Answer class
+        self.text = "" # Text of the answer 
+        self.name = "" # Name of the answer
 
 
 # if __name__ == "__main__":
