@@ -109,7 +109,7 @@ if __name__ == "__main__":
     ans.text = "3"
     q2.answers.append(ans)
     ans = Answer()
-#     ans.name = "b"
+    ans.name = "b"
 #     ans.text = "4"
 #     q2.answers.append(ans)
 #     ans = Answer()
