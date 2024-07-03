@@ -6,8 +6,8 @@ class Quiz:  # Base class for all quizzes in the system
         #TODO: define the quiz properties
         pass  # Placeholder to avoid an error when the class is empty 
 
-    def print_header(self):
-        print("\n\n*******************************************")
+    def print_header(self): # Method to print the quiz header  
+        print("\n\n*******************************************") 
         #TODO: print the quiz header
         print("*******************************************\n")
 
