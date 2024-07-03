@@ -74,7 +74,7 @@ class QuestioncMC(Question):
 
             if (len(response) == 0): # Check to see if no response was entered
                 print("Sorry, that's not a valid response. Please try again") # Print an error message to the console
-                continue
+                continue # Skip the rest of the loop and start over 
 
             response = response.lower()
             if response[0] == self.correct_answer:
