@@ -100,8 +100,8 @@ if __name__ == "__main__":
     q1.correct_answer = "t"
     qz.questions.append(q1)
 
-#     q2 = QuestioncMC()
-#     q2.text = "What is 2+2?"
+    q2 = QuestioncMC()
+    q2.text = "What is 2+2?"
 #     q2.points = 10
 #     q2.correct_answer = "b"
 #     ans = Answer()
