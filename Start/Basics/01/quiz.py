@@ -1,7 +1,8 @@
 # The Quiz and Question classes define a particular quiz
 
 
-class Question:
+
+class Question: # Base class for all questions in the quiz 
     def __init__(self):
         # TODO: define the Question fields
         pass
