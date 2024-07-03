@@ -89,8 +89,8 @@ class Answer: # Answer class
         self.name = "" # Name of the answer
 
 
-# if __name__ == "__main__":
-#     qz = Quiz()
+if __name__ == "__main__":
+    qz = Quiz()
 #     qz.name = "Sample Quiz"
 #     qz.description = "This is a sample quiz!"
 
