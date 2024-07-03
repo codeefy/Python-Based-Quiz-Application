@@ -96,8 +96,8 @@ if __name__ == "__main__":
 
     q1 = QuestionTF()
     q1.text = "Broccoli is good for you"
-#     q1.points = 5
-#     q1.correct_answer = "t"
+    q1.points = 5
+    q1.correct_answer = "t"
 #     qz.questions.append(q1)
 
 #     q2 = QuestioncMC()
