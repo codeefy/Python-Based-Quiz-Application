@@ -77,8 +77,8 @@ class QuestioncMC(Question):
                 continue # Skip the rest of the loop and start over 
 
             response = response.lower() # Convert the response to lowercase 
-            if response[0] == self.correct_answer:
-                self.is_correct = True
+            if response[0] == self.correct_answer: # Check to see if the response is correct 
+                self.is_correct = True # Mark the question as correct
 
             break
 
