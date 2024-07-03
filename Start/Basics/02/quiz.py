@@ -76,7 +76,7 @@ class QuestioncMC(Question):
                 print("Sorry, that's not a valid response. Please try again") # Print an error message to the console
                 continue # Skip the rest of the loop and start over 
 
-            response = response.lower()
+            response = response.lower() # Convert the response to lowercase 
             if response[0] == self.correct_answer:
                 self.is_correct = True
 
