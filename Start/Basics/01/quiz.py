@@ -3,9 +3,9 @@
 
 
 class Question: # Base class for all questions in the quiz 
-    def __init__(self):
-        # TODO: define the Question fields
-        pass
+    def __init__(self): # Constructor for the Question class 
+        # TODO: define the Question fields , todo: is a comment that is used to mark the location of a task in the code
+        pass 
 
 
 class QuestionTF(Question):
