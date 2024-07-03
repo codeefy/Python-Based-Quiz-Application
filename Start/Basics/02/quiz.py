@@ -4,7 +4,7 @@
 class Quiz:  # Base class for all quizzes in the system 
     def __init__(self): # Constructor for the Quiz class 
         #TODO: define the quiz properties
-        pass  # Placeholder to avoid an error when the class is empty 
+        #self.questions = []  # Initialize the questions attribute as an empty list
 
     def print_header(self): # Method to print the quiz header  
         print("\n\n*******************************************")  # it  is a comment that is used to mark the location of a task in the code
