@@ -102,10 +102,10 @@ if __name__ == "__main__":
 
     q2 = QuestioncMC()
     q2.text = "What is 2+2?"
-#     q2.points = 10
-#     q2.correct_answer = "b"
-#     ans = Answer()
-#     ans.name = "a"
+    q2.points = 10
+    q2.correct_answer = "b"
+    ans = Answer()
+    ans.name = "a"
 #     ans.text = "3"
 #     q2.answers.append(ans)
 #     ans = Answer()
