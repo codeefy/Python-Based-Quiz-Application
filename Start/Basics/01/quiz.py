@@ -33,11 +33,11 @@ class QuestioncMC(Question): # Multiple choice question class
         # TODO: define the answers for this question
 
     # TODO: define the ask method
-    def ask(self):
-        while (True):
+    def ask(self): # Method to ask the question  
+        while (True): # Loop to keep asking the question until a valid response is given 
             # TODO: Present the question and possible answers
 
-            response = input("? ")
+            response = input("? ") # Get the response from the user 
 
             # TODO: Check to see if no response was entered
 
@@ -46,8 +46,8 @@ class QuestioncMC(Question): # Multiple choice question class
             break
 
 
-class Answer:
-    def __init__(self):
+class Answer: # Answer class 
+    def __init__(self): # Constructor for the Answer class
         pass
         # TODO: define the Answer fields
 
