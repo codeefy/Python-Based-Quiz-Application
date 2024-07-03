@@ -112,11 +112,11 @@ if __name__ == "__main__":
     ans.name = "b"
     ans.text = "4"
     q2.answers.append(ans)
-#     ans = Answer()
-#     ans.name = "c"
-#     ans.text = "5"
-#     q2.answers.append(ans)
-#     qz.questions.append(q2)
+    ans = Answer()
+    ans.name = "c"
+    ans.text = "5"
+    q2.answers.append(ans)
+    qz.questions.append(q2)
 
 #     qz.total_points = q1.points + q2.points
 #     result = qz.take_quiz()
