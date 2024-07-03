@@ -117,7 +117,6 @@ if __name__ == "__main__":
     ans.text = "5"
     q2.answers.append(ans)
     qz.questions.append(q2)
-
-#     qz.total_points = q1.points + q2.points
-#     result = qz.take_quiz()
-#     print(result)
+    qz.total_points = q1.points + q2.points
+    result = qz.take_quiz()
+    print(result)
