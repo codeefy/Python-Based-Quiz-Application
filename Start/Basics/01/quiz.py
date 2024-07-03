@@ -5,19 +5,19 @@
 class Question: # Base class for all questions in the quiz 
     def __init__(self): # Constructor for the Question class 
         # TODO: define the Question fields , todo: is a comment that is used to mark the location of a task in the code
-        pass 
+        pass
 
 
-class QuestionTF(Question):
-    def __init__(self):
-        super().__init__()
+class QuestionTF(Question): # True/False question class 
+    def __init__(self): # Constructor for the QuestionTF class
+        super().__init__() # Call the constructor of the base class 
 
     # TODO: define the ask method
-    def ask(self):
-        while (True):
-            print(f"(T)rue or (F)alse: {self.text}")
-            response = input("? ")
-
+    def ask(self): # Method to ask the question  
+        while (True): # Loop to keep asking the question until a valid response is given
+            print(f"(T)rue or (F)alse: {self.text}") # Print the question to the console 
+            response = input("? ") # Get the response from the user  
+ 
             # TODO: Check to see if no response was entered
 
             # TODO: Check to see if either T or F was given
@@ -27,7 +27,7 @@ class QuestionTF(Question):
             break
 
 
-class QuestioncMC(Question):
+class QuestioncMC(Question): # Multiple choice question class
     def __init__(self):
         super().__init__()
         # TODO: define the answers for this question
