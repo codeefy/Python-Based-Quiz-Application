@@ -96,3 +96,14 @@ class QuizApp:
 if __name__ == "__main__":
     app = QuizApp()
     app.run()
+
+#input for the user to enter their name
+#the greeting message for the user
+#the menu header for the user to select the options
+#the error message if the user enters an invalid option
+#the goodbye message for the user
+#the menu for the user to select the options
+#the run function to execute the startup routine and the main program menu
+#the main function to run the QuizApp
+#the QuizApp class with the QUIZ_FOLDER variable and the __init__ function
+#the startup function to print the greeting and ask for the user's name
