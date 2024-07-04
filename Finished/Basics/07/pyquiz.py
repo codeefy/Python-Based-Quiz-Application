@@ -95,3 +95,5 @@ class QuizApp:
 if __name__ == "__main__":
     app = QuizApp()
     app.run()
+
+# what i input for selection 
