@@ -75,6 +75,5 @@ if __name__ == "__main__":
     ans.text = "5"
     q2.answers.append(ans)
     q2.ask()
-
-    print(q1.is_correct)
-    print(q2.is_correct)
+print(q1.is_correct)
+print(q2.is_correct)
