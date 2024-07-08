@@ -1,4 +1,3 @@
-# Example file for LinkedIn Learning Course "Python: Build a Quiz App" by Joe Marini
 # The Quiz and Question classes define a particular quiz
 import datetime
 import sys
