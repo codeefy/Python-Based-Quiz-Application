@@ -1,4 +1,3 @@
-# Example file for LinkedIn Learning Course "Python: Build a Quiz App" by Joe Marini
 # QuizParser builds a quiz from a source file
 import xml.sax
 from quiz import *
