@@ -1,7 +1,5 @@
 # The Quiz and Question classes define a particular quiz
 
-
-
 class Question: # Base class for all questions in the quiz 
     def __init__(self): # Constructor for the Question class 
         # TODO: define the Question fields , todo: is a comment that is used to mark the location of a task in the code
