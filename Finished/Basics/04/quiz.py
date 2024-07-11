@@ -1,8 +1,8 @@
 # The Quiz and Question classes define a particular quiz
 
 
-class Quiz:
-    def __init__(self):
+class Quiz: # Base class for  all quizzes  
+    def __init__(self): # Constructor for the Quiz class
         self.name = ""
         self.description = ""
         self.questions = []
